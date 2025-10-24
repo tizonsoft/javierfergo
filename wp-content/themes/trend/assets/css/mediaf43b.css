@@ -1,0 +1,183 @@
+/*==========================================================================================
+	
+Media CSS File
+This file contains all styles for responsive layout
+
+==========================================================================================*/
+
+
+
+
+
+
+/*----------------------------------------------------*/
+/*	1.	lower that 1330px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 1330px) {
+	
+	#journal-list li {width:25%;}
+	
+	#cover .cover-center span {font-size:30px;}
+	
+	.header-part-right {width:60%;}
+	
+	.page-content {width:100%;}
+	
+}
+
+
+
+
+
+/*----------------------------------------------------*/
+/*	2.	lower that 950px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 950px) {
+	
+	#pattern-full, #categorizr .slider .item {left:0;right:0;}
+	
+	#footer {padding:0;}
+	
+	#footer .social {width:100%;float:left;text-align:center;left:0;margin-top:8px;height:25px;}
+	
+	#footer .copy {width:100%;float:left;text-align:center;padding-top:0;}
+	
+	#footer .social li {float:none;display:inline-block;}
+	
+	#categorizr .nav-holder {left:15px;width:150%;}
+	
+	#categorizr .ctrz-button {left:15px;}
+	
+	#categorizr .nav .title {height:30px;}
+	
+	#categorizr.expanded .nav li {height:106px;}
+	
+	#categorizr .nav .title.show {bottom:-4px;}
+	
+	#categorizr.expanded .nav-holder {left:15px;}
+	
+	#categorizr.expanded .ctrz-button {left:15px;}
+	
+	#navigation, #toggle-sidebar {display:none;}
+	
+	#navigation-mobile {display:block;position:fixed;padding:30px 0 0 15px;top:0;right:-250px;width:250px;height:100%;background-color:#252525;z-index:2;overflow-y:scroll;}
+	#navigation-mobile.open {right:0;}
+	
+	#navigation-mobile h2 {font-family: 'sabadoregular', sans-serif;font-size:25px;color:#fffd82;margin:20px 35px;}
+	#navigation-mobile ul {list-style:none;margin:0;padding:0;}
+	#navigation-mobile ul a {color:#fff;text-decoration:none;padding:8px 10px;display:block;}
+	#navigation-mobile ul ul {padding-left:26px;}
+	#navigation-mobile ul ul a {color:#c6c6c6;}
+	
+	#toggle-nav {display:block;float:left;width:45px;height:45px;margin:10px 0;background: url(../img/sprite.png) no-repeat -340px 8px;}
+	
+	#journal-list li {width:33.3333%;}
+	
+	#journal-classic .the-content {width:100%;}
+	
+	#fbcomments, .fb-comments, .fb-comments iframe[style], .fb-comments span {width:100%!important;}
+	
+	#gallery {left:0;right:0;}
+	
+	#cover {display:none;}
+	
+	#rail .rail-title h1 {font-size:50px;line-height:130px;}
+	
+	h1 {font-size:30px;}
+	
+	.page-medium-wrap {width:100%;}
+	.the-content {padding:0 15px 0 15px;}
+	.page-content img.size-full {width:100%;}
+	.page-min-wrap {width:100%;padding-left:15px;padding-right:15px;}
+	
+	.header-part-left {left:10px;}
+	
+	.password-protection form {width:60%;left:20%;}
+	
+}
+
+
+/*----------------------------------------------------*/
+/*	3.	lower that 900px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 900px) {
+	
+	#categorizr .nav .title {font-size:20px;}
+	
+	#left-part-page .image {width:100%;}
+	#left-part-page .right-content {width:100%;height:auto;padding-bottom:100px;}
+	
+	#post .image-full {width:100%;}
+	#post .right {width:100%;height:auto;padding-bottom:100px;}
+	
+	#journal-list li {width:50%;}
+	
+	.nav-links .nav-previous, .nav-links .nav-next {width:100%;text-align:center;}
+	
+	#rail .rail-title h1 {font-size:30px;line-height:150px;}
+	
+	.isotope-holder {padding-left:0;padding-right:0;}
+	
+	.page-full-wrap {padding-left:10px;padding-right:10px;}
+	
+	#journal-classic .page-title {font-size:30px;line-height:30px;}
+	
+	.page-title {font-size:40px;}
+	
+	#rail {left:20px;top:10%;}
+	
+	.post-nav .thumb {display:none;}
+	
+	#gallery .post-nav.nav-left:hover > .thumb {right:-110px;opacity:1;}
+	#gallery .post-nav.nav-right:hover > .thumb {left:-110px;opacity:1;}
+	#gallery .post-nav.nav-left:hover > .arrow {right:30px;opacity:1;}
+	#gallery .post-nav.nav-right:hover > .arrow {left:30px;opacity:1;}
+
+}
+
+
+
+/*----------------------------------------------------*/
+/*	3.	lower that 550px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 550px) {
+	
+	#header .header-part-right {display:none;}
+	
+	#journal-list li {width:100%;}
+	
+	#rail .rail-title h1 {font-size:15px;}
+	
+	#page-404 .title {font-size:80px;}
+	#page-404 .subtitle {font-size:20px;}
+	
+	.col {width:100%!important;}
+	
+	.password-protection form {width:80%;left:10%;top:20%;}
+	
+}
+
+
+
+/*----------------------------------------------------*/
+/*	3.	lower that 480px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+	
+	.bw-also-like li.like-item {width:100%;margin-right:0;padding-bottom:20px;}
+	
+}
+
+
+
+/*----------------------------------------------------*/
+/*	3.	lower that 320px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 320px) {
+	
+	
+	#journal-list {padding-left:0;padding-right:0;}
+	
+	
+}
+
