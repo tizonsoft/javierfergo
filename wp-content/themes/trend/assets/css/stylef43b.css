@@ -1,6 +1,6 @@
 /*
- *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ *  Font Awesome 4.1.0 by @davegandy - http:/fontawesome.io - @fontawesome
+ *  License - http:/fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 @font-face {
   font-family: 'FontAwesome';
@@ -86,9 +86,9 @@ body.init #preloader {display:block;}
 .password-protection button[type="submit"] {position:absolute;top:0;right:0;line-height:100%;border:0;background-color:#000;color:#fff;padding:13px;height:44px;width:60px;}
 .password-protection button[type="submit"]:hover {background-color:#555;}
 
-#pattern-full {position:fixed;top:65px;bottom:65px;left:65px;right:65px;background:transparent url(https://tizonsoft.github.io/javierfergo/img/patterns/dot.png) repeat 0 0;z-index:1;opacity:0.2;}
-body.bw-pattern-diagonal #pattern-full {background:transparent url(https://tizonsoft.github.io/javierfergo/img/patterns/diagonal.png) repeat 0 0;}
-body.bw-pattern-vertical #pattern-full {background:transparent url(https://tizonsoft.github.io/javierfergo/img/patterns/vertical.png) repeat 0 0;}
+#pattern-full {position:fixed;top:65px;bottom:65px;left:65px;right:65px;background:transparent url(https:/tizonsoft.github.io/javierfergo/img/patterns/dot.png) repeat 0 0;z-index:1;opacity:0.2;}
+body.bw-pattern-diagonal #pattern-full {background:transparent url(https:/tizonsoft.github.io/javierfergo/img/patterns/diagonal.png) repeat 0 0;}
+body.bw-pattern-vertical #pattern-full {background:transparent url(https:/tizonsoft.github.io/javierfergo/img/patterns/vertical.png) repeat 0 0;}
 
 #wrapper {width:100%;height:100%;position:absolute;top:0;left:0;z-index:-1;}
 
@@ -109,7 +109,7 @@ body.bw-pattern-vertical #pattern-full {background:transparent url(https://tizon
 #navigation {float:left;text-align:center;font-size:0;}
 #navigation li {position:relative;display:inline-block;}
 #navigation a {display:block;padding:26px 8px 26px;font-size:13px;color:#000;line-height:100%;text-decoration:none;text-transform:uppercase;}
-#navigation a:after {content:"";display:block;position:absolute;top:31px;right:-1px;width:2px;height:10px;background: url(https://tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat 0 0;}
+#navigation a:after {content:"";display:block;position:absolute;top:31px;right:-1px;width:2px;height:10px;background: url(https:/tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat 0 0;}
 #navigation li:last-child a:after {display:none;}
 
 #navigation ul ul {display:none;position:absolute;top:65px;left:-50px;width:200px;text-align:left;background-color:rgba(0,0,0,0.7);}
@@ -119,7 +119,7 @@ body.bw-pattern-vertical #pattern-full {background:transparent url(https://tizon
 #navigation ul ul li {display:block;}
 #navigation ul ul a {padding:10px;font-size:13px;color:#fff;}
 #navigation ul ul a:hover {background-color:#000;}
-#navigation .menu-item-has-children > a {background:url(https://tizonsoft.github.io/javierfergo/img/arrow.png) no-repeat 185px 14px;}
+#navigation .menu-item-has-children > a {background:url(https:/tizonsoft.github.io/javierfergo/img/arrow.png) no-repeat 185px 14px;}
 
 #navigation p {font-size:14px;padding:22px 0;}
 
@@ -399,7 +399,7 @@ body.cover #gallery .post-nav.nav-right .arrow {border-bottom:1px solid #fff;bor
 #gallery .post-nav.nav-left .thumb {right:-110px;opacity:0;}
 #gallery .post-nav.nav-right .thumb {left:-110px;opacity:0;}
 #gallery .post-nav .thumb img {width:100%;}
-.media {position:absolute;width:30px;height:30px;display:block;top:50%;left:50%;margin-left:-15px;margin-top:-15px;background: rgba(0,0,0,0.4) url(https://tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat -289px 3px;}
+.media {position:absolute;width:30px;height:30px;display:block;top:50%;left:50%;margin-left:-15px;margin-top:-15px;background: rgba(0,0,0,0.4) url(https:/tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat -289px 3px;}
 
 #gallery .post-nav.nav-left:hover > .thumb {right:0;opacity:1;}
 #gallery .post-nav.nav-right:hover > .thumb {left:0;opacity:1;}
@@ -413,7 +413,7 @@ body.cover #gallery .post-nav.nav-right .arrow {border-bottom:1px solid #fff;bor
 
 #map-holder .navigation {position:absolute;top:10px;left:10px;margin:0;list-style:none;z-index:1;opacity:1;}
 #map-holder .navigation.visible {opacity:1;}
-#map-holder .navigation a {display:block;width:43px;height:41px;background: #000 url(https://tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat -205px 9px;}
+#map-holder .navigation a {display:block;width:43px;height:41px;background: #000 url(https:/tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat -205px 9px;}
 #map-holder .navigation a:hover {opacity:0.8;}
 #map-holder .navigation a#zoomout {background-position:-236px 9px;margin-top:1px;}
 
@@ -567,7 +567,7 @@ blockquote {padding:10px;padding-left:20px;margin:25px 0;border-left:5px solid #
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {filter:Alpha(Opacity=100);opacity: 1;}
 
-.owl-theme .owl-buttons div {display:inline-block;width:40px;height:40px;background:transparent url(https://tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat;}
+.owl-theme .owl-buttons div {display:inline-block;width:40px;height:40px;background:transparent url(https:/tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat;}
 .owl-theme .owl-buttons .owl-prev {background-position:-107px 8px;}
 .owl-theme .owl-buttons .owl-next {background-position:-68px 8px;}
 
@@ -593,7 +593,7 @@ blockquote {padding:10px;padding-left:20px;margin:25px 0;border-left:5px solid #
 #page-404 .title {font-family:'sabadoregular', sans-serif;color:#000;font-size:140px;line-height:120px;}
 #page-404 .subtitle {font-family:'sabadoregular', sans-serif;color:#000;font-size:30px;line-height:45px;padding-bottom:11px;}
 #page-404 .search-field {padding:10px;background-color:#fff;color:#000;border:0;width:40%;}
-#page-404 .search-submit {display:inline-block;width:45px;height:45px;position:relative;top:4px;border:0;background:transparent url(https://tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat -147px 8px;text-indent:-9999px;}
+#page-404 .search-submit {display:inline-block;width:45px;height:45px;position:relative;top:4px;border:0;background:transparent url(https:/tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat -147px 8px;text-indent:-9999px;}
 
 
 
@@ -659,7 +659,7 @@ ol.comment-list li.comment div.reply {display:inline-block;}
 ol.comment-list li.comment div.reply a {font-weight:300;text-decoration:none;color:#b5b5b5;}
 ol.comment-list li.comment div.reply a:hover {color:#000;}
 ol.comment-list li.comment ol.children {list-style:none;margin:1em 0 0;text-indent:0;}
-ol.comment-list li.comment ol.children li.comment {background: transparent url(https://tizonsoft.github.io/javierfergo/img/comment.png) no-repeat 16px -7px;}
+ol.comment-list li.comment ol.children li.comment {background: transparent url(https:/tizonsoft.github.io/javierfergo/img/comment.png) no-repeat 16px -7px;}
 ol.comment-list li.comment ol.children li.depth-2 {padding-left:63px;}
 ol.comment-list li.comment ol.children li.depth-3 {padding-left:63px;}
 ol.comment-list li.comment ol.children li.depth-4 {padding-left:63px;}
@@ -780,7 +780,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 .bargraph li span strong.full:after {left: 15px;}
 
 .toggle {float:left;width:100%;}
-.toggle .toggle-title {float:left;width:100%;padding:3px 0 5px 22px;border-bottom:1px solid #eee;font-size:20px;background:url(https://tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat 0 -50px;cursor:pointer;}
+.toggle .toggle-title {float:left;width:100%;padding:3px 0 5px 22px;border-bottom:1px solid #eee;font-size:20px;background:url(https:/tizonsoft.github.io/javierfergo/img/sprite.png) no-repeat 0 -50px;cursor:pointer;}
 .toggle .toggle-content {display:none;float:left;width:100%;padding:7px 10px 10px 20px;}
 .toggle.active .toggle-content {display:block;}
 .toggle.active .toggle-title {background-position:0 -85px}

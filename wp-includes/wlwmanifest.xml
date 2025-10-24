@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<manifest xmlns="http://schemas.microsoft.com/wlw/manifest/weblog">
+<manifest xmlns="http:/schemas.microsoft.com/wlw/manifest/weblog">
 
   <options>
     <clientType>WordPress</clientType>
@@ -16,12 +16,12 @@
     <adminLinkText>Dashboard</adminLinkText>
     <adminUrl>
       <![CDATA[
-			{blog-postapi-url}/https://tizonsoft.github.io/javierfergo/wp-admin/
+			{blog-postapi-url}/https:/tizonsoft.github.io/javierfergo/wp-admin/
 		]]>
     </adminUrl>
     <postEditingUrl>
       <![CDATA[
-			{blog-postapi-url}/https://tizonsoft.github.io/javierfergo/wp-admin/post.php?action=edit&post={post-id}
+			{blog-postapi-url}/https:/tizonsoft.github.io/javierfergo/wp-admin/post.php?action=edit&post={post-id}
 		]]>
     </postEditingUrl>
   </weblog>
@@ -33,7 +33,7 @@
       <imageUrl>images/wlw/wp-comments.png</imageUrl>
       <clickUrl>
         <![CDATA[
-				{blog-postapi-url}/https://tizonsoft.github.io/javierfergo/wp-admin/edit-comments.php
+				{blog-postapi-url}/https:/tizonsoft.github.io/javierfergo/wp-admin/edit-comments.php
 			]]>
       </clickUrl>
     </button>

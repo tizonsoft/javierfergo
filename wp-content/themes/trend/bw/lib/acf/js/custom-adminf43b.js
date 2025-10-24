@@ -1,7 +1,7 @@
 ;(function($){
 	$(document).ready(function(){
 		
-		// custom show/hide for fields which depends on posts_source value
+		/ custom show/hide for fields which depends on posts_source value
 		$('td[data-field_name=posts_source_category]').parent().hide();
 		$('td[data-field_name=posts_source_post_formats]').parent().hide();
 
@@ -17,7 +17,7 @@
 			}
 		});
 		
-		// all this above should be also moved in the "on change" action below
+		/ all this above should be also moved in the "on change" action below
 		$(document).on('change', 'td[data-field_name=posts_source]', function(){
 			
 			$('td[data-field_name=posts_source_category]').parent().hide();
