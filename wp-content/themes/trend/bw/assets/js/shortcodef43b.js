@@ -1,7 +1,7 @@
-// Expose jQuery to the global object
+/ Expose jQuery to the global object
 window.jQuery = window.$ = jQuery;
 
-// main object
+/ main object
 var BwShortcode = {
 	
 	init: function() {
@@ -11,7 +11,7 @@ var BwShortcode = {
 	
 	},
 	
-	// bar graph
+	/ bar graph
 	bargraph: function() {
 		if($('.bargraph').length > 0) {
 			$('.bargraph li').each(function() {
@@ -21,7 +21,7 @@ var BwShortcode = {
 		}
 	},
 	
-	// faq toggle
+	/ faq toggle
 	toggle: function() {
 		$(document).on('click', '.toggle-title', function() {
 			
