@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.javierfergo.com	TRUE	/	FALSE	1999999999	PHPSESSID	jkc3a4njsqt00df8hodlvq2im3
+www.javierfergo.com	TRUE	/	FALSE	1999999999	90e12953aa46e6d3881475505a312e8a	e29b1843cdb71b10d9b25487f320e810
+www.javierfergo.com	TRUE	/	FALSE	1999999999	ckon2510	sject2510_a7a2333a8bf86
+

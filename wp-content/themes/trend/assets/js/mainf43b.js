@@ -215,7 +215,7 @@ var App = {
 	
 	bind: function() {
 		
-		/ disable empty url\'s
+		// disable empty url\'s
 		jQuery(document).on('click', 'a[href="#"]', function(e) {
 			e.preventDefault();
 		});
@@ -224,14 +224,14 @@ var App = {
 			jQuery('#navigation-mobile').toggleClass('open');
 		});
 		
-		/ toggle mobile navigation
+		// toggle mobile navigation
 		jQuery(document).on('click', '#toggle-nav, #navigation-mobile .mobile-close', function() {
 			
 			jQuery('#navigation-mobile').toggleClass('open');
 			
 		});
 		
-		/ toggle sidebar
+		// toggle sidebar
 		jQuery(document).on('click', '#toggle-sidebar', function() {
 			
 			jQuery('#sidebar').toggleClass('open');
@@ -239,7 +239,7 @@ var App = {
 			
 		});
 		
-		/ journal hover effects
+		// journal hover effects
 		jQuery(document).on('mouseover', '.bw-also-like .image', function() {
 			var $element = jQuery(this),$img = $element.find('img');
 			TweenLite.to($img, 0.4, {scale: 1.13, ease:Back.easeOut});
@@ -254,7 +254,7 @@ var App = {
 			TweenLite.to(jQuery('.verr', $element), 0.3, {height: 0, marginTop:0});
 		});
 		
-		/ quick view hover
+		// quick view hover
 		jQuery(document).on('mouseenter', '#categorizr .quick-view-gallery a', function() {
 			
 			var $element = jQuery(this);
@@ -277,7 +277,7 @@ var App = {
 			
 		});
 		
-		/ isotope element hover
+		// isotope element hover
 		jQuery(document).on('mouseenter', '.isotope .isotope-item .element, .rail-content .item > a', function() {
 			
 			var $element = jQuery(this),
@@ -303,12 +303,12 @@ var App = {
 				TweenLite.to(jQuery('.ver', $elementParent), 0.3, {height: 0, marginTop:0});
 		});
 		
-		/ disable empty url\'s
+		// disable empty url\'s
 		jQuery(document).on('click', 'a[href="#"]', function(e) {
 			e.preventDefault();
 		});
 		
-		/ full background toggle
+		// full background toggle
 		jQuery(document).on('click', '.full-toggle.expand', function() {
 			
 			if(!jQuery(this).hasClass('animate')) {
@@ -321,7 +321,7 @@ var App = {
 				
 				setTimeout(function() {
 					jQuery('body').toggleClass('cover');
-					/jQuery('#header, #footer').toggleClass('hidden');
+					//jQuery('#header, #footer').toggleClass('hidden');
 				}, 300);
 				
 				setTimeout(function() {
@@ -332,14 +332,14 @@ var App = {
 			}
 		});
 		
-		/ share addthis buttons
+		// share addthis buttons
 		jQuery(document).on('mouseenter', '.share-bottom', function() {
 			jQuery('#bw-share').addClass('show');
 		}).on('mouseleave', '.share-bottom', function() {
 			jQuery('#bw-share').removeClass('show');
 		});
 		
-		/ info section
+		// info section
 		jQuery(document).on('click', '.full-toggle.info-toggle', function() {
 			jQuery('#gallery').toggleClass('info');
 			if(jQuery('#gallery').hasClass('info')) {
@@ -349,7 +349,7 @@ var App = {
 			}
 		});
 		
-		/ categorizr menu item mouse enter
+		// categorizr menu item mouse enter
 		var mouseHold;
 		jQuery(document).on('mouseenter', '#categorizr .nav a', function() {
 			var $this = jQuery(this);
@@ -368,7 +368,7 @@ var App = {
 			clearTimeout(mouseHold);
 		});
 		
-		/ categorizr quick view
+		// categorizr quick view
 		jQuery(document).on('click', '#categorizr #quick-view', function(e) {
 			e.preventDefault();
 			jQuery('#categorizr').toggleClass('expanded');
@@ -381,7 +381,7 @@ var App = {
 			jQuery('#search-submit').attr('href', searchUrl).trigger('click');
 		});
 		
-		/ On djax request
+		// On djax request
 		jQuery(window).bind('djaxClick', function(e) {
 			
 			e.preventDefault();
@@ -392,17 +392,17 @@ var App = {
 			
 		});
 		
-		/ djax click
+		// djax click
 		jQuery(window).bind('djaxClick', function() {
 			TweenMax.to(jQuery('#header .header-part-right h1'), 0.3, {top:-100, alpha:0, ease:Quad.easeIn});
 		});
 		
-		/ djax loading
+		// djax loading
 		jQuery(window).bind('djaxLoading', function() {
 			
 		});
 		
-		/ djax finished
+		// djax finished
 		jQuery(window).bind('djaxLoad', function() {
 			TweenMax.from(jQuery('#header .header-part-right h1'), 0.3, {top:'auto', bottom:-100, alpha:0, ease:Quad.easeOut});
 		});
@@ -434,7 +434,7 @@ var App = {
 	
 	headerNavigation: function() {
 		
-		/ desktop
+		// desktop
 		jQuery('#navigation li').hover(function() {
 			jQuery('ul:first', jQuery(this)).stop(true,true).fadeIn();
 		}, function() {
@@ -491,11 +491,11 @@ var App = {
 		mapObject = new google.maps.Map(mapContainer, mapOptions);
 
 		var mapStyle = [
-			/ map style 1
+			// map style 1
 			[{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]}],
 			
 			
-			/ map style 2
+			// map style 2
 			[{"featureType":"water","elementType":"all","stylers":[{"hue":"#e9ebed"},{"saturation":-78},{"lightness":67},{"visibility":"simplified"}]},{"featureType":"landscape","elementType":"all","stylers":[{"hue":"#ffffff"},{"saturation":-100},{"lightness":100},{"visibility":"simplified"}]},{"featureType":"road","elementType":"geometry","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":31},{"visibility":"simplified"}]},{"featureType":"poi","elementType":"all","stylers":[{"hue":"#ffffff"},{"saturation":-100},{"lightness":100},{"visibility":"off"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"hue":"#e9ebed"},{"saturation":-90},{"lightness":-8},{"visibility":"simplified"}]},{"featureType":"transit","elementType":"all","stylers":[{"hue":"#e9ebed"},{"saturation":10},{"lightness":69},{"visibility":"on"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"hue":"#2c2e33"},{"saturation":7},{"lightness":19},{"visibility":"on"}]},{"featureType":"road","elementType":"labels","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":31},{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":-2},{"visibility":"simplified"}]}]
 		];
 		
@@ -540,7 +540,7 @@ var App = {
 			pixelOffset: new google.maps.Size(-25, -235),
 			zIndex: null,
 			boxStyle: { 
-				/background: "url('img/marker-label.png') no-repeat",
+				//background: "url('img/marker-label.png') no-repeat",
 				width: "400px",
 				height: "215px"
 			},
@@ -576,7 +576,7 @@ var App = {
 				break;
 			}
 			case 'out': {
-				/jQuery('.post-gallery').data('owlCarousel').destroy();
+				//jQuery('.post-gallery').data('owlCarousel').destroy();
 				break;
 			}
 			default: return;
@@ -669,10 +669,10 @@ var App = {
 			});
 		};
 		
-		/ if not an iframe
-		/if(window.location == window.parent.location) {
+		// if not an iframe
+		//if(window.location == window.parent.location) {
 			jQuery('body').djax('.djax-dynamic', ['.pdf','.doc','.eps','.png','.zip','admin','wp-','wp-admin','feed','#', '?lang=', '&lang=', '&add-to-cart=', '?add-to-cart=', '?remove_item'], djax_transition);
-		/}
+		//}
 		
 	},
 	
@@ -716,7 +716,7 @@ var App = {
 					break;
 				}
 				case 'out': {
-					/ destroy isotope
+					// destroy isotope
 					App.owlSlider('out');
 					jQuery(window).off("debouncedresize");
 					jQuery("#content").isotope('destroy');
@@ -764,7 +764,7 @@ var App = {
 					break;
 				}
 				case 'out': {
-					/ on leave animation
+					// on leave animation
 					break;
 				}
 				default: break;
@@ -776,13 +776,13 @@ var App = {
 			switch(direction) {
 				case 'in': {
 					
-					/ keyboard shortcodes
+					// keyboard shortcodes
 					App.animations.galleryShortcuts('in');
 					
-					/ on enter animation
+					// on enter animation
 					jQuery('#gallery .full').resizeToParent({parent: '#gallery'});
 					
-					/ cover animation
+					// cover animation
 					setTimeout(function() {
 						
 						if(jQuery('#cover').length > 0) {
@@ -800,12 +800,12 @@ var App = {
 						
 					}, 500);
 					
-					/ fix for toggle navigation
+					// fix for toggle navigation
 					if(jQuery('body').hasClass('cover') && jQuery('.full-toggle i').hasClass('fa-arrows-alt')) {
 						jQuery('.full-toggle i').removeClass('fa-arrows-alt').addClass('fa-compress');
 					}
 					
-					/ addthis media
+					// addthis media
 					if (window.addthis) {
 						window.addthis = null;
 						window._adr = null;
@@ -815,7 +815,7 @@ var App = {
 						window._atr = null;
 						window._atw = null;
 					}
-					jQuery.getScript( '/s7.addthis.com/js/300/addthis_widget.js#pubid=ra-534b93e766f14c42' );
+					jQuery.getScript( '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-534b93e766f14c42' );
 					
 					jQuery('.info-content').css('bottom', (jQuery('.info-content').outerHeight() * -1) );
 					
@@ -823,10 +823,10 @@ var App = {
 				}
 				case 'out': {
 					
-					/ keyboard shortcodes
+					// keyboard shortcodes
 					App.animations.galleryShortcuts('out');
 					
-					/ on leave animation
+					// on leave animation
 					jQuery('#gallery .full').resizeToParent('destroy');
 					break;
 				}
@@ -845,15 +845,15 @@ var App = {
 						
 						switch (eventObject.keyCode) {
 							case 37:
-								/ left
+								// left
 								if( jQuery('.post-nav.nav-right').length ) { jQuery('.post-nav.nav-right').trigger('click'); }
 								break;
 							case 39:
-								/ right
+								// right
 								if( jQuery('.post-nav.nav-left').length ) { jQuery('.post-nav.nav-left').trigger('click'); }
 								break;
 							case 27:
-								/ escape
+								// escape
 								if( jQuery('.full-toggle .fa-compress').length ) { jQuery('.full-toggle').trigger('click'); }
 								break;
 							default: break;
@@ -883,7 +883,7 @@ var App = {
 			
 			switch(direction) {
 				case 'in': {
-					/ resize image to parent
+					// resize image to parent
 					jQuery('.image-full .full').resizeToParent({parent: '.image-full'});
 					
 					TweenMax.staggerFrom(jQuery('.scale--both'), 0.3, 
@@ -893,15 +893,15 @@ var App = {
 					break;
 				}
 				case 'out': {
-					/ kill resize image to parent
+					// kill resize image to parent
 					jQuery('.image-full .full').resizeToParent('destroy');
 					
 					TweenLite.to(jQuery('.scale--both'), 0.3, 
 						{opacity:0}, 
 					0.3);
 					
-					/TweenLite.to('.scale--both > .scale--cont', 0.3, {scale:0.95, opacity:0});
-					/TweenMax.to('.scale--out > .scale--cont', 0.2, {scale:0.95, opacity:0});
+					//TweenLite.to('.scale--both > .scale--cont', 0.3, {scale:0.95, opacity:0});
+					//TweenMax.to('.scale--out > .scale--cont', 0.2, {scale:0.95, opacity:0});
 					
 					break;
 				}
@@ -1096,21 +1096,21 @@ var App = {
 			switch(direction) {
 				case 'in':{
 					
-					/ rebuild resizable images
+					// rebuild resizable images
 					jQuery('#categorizr .full').resizeToParent({parent: '.item'});
 					
-					/ show first slider
+					// show first slider
 					jQuery('#categorizr .slider .item:first, #categorizr .author li:first').addClass('visible');
 					
 					setTimeout(function() {
 						
-						/ show menu categories one by one
+						// show menu categories one by one
 						jQuery('#categorizr .nav .title').each(function(e) {
 							(function(self, index) {
 								setTimeout(function() {
 									jQuery(self).addClass('show');
 									if(index+1 === jQuery('#categorizr .nav .title').length) {
-										/ activate first category from the menu when all categories are visible
+										// activate first category from the menu when all categories are visible
 										setTimeout(function() {
 											jQuery('#categorizr .nav li:first .title').addClass('active');
 										},200);
@@ -1267,7 +1267,7 @@ var App = {
 			console.log(jQuery('#categorizr .slider li:not(:eq(' + index + ')) > .item'));
 			TweenMax.to(jQuery('#categorizr .slider li:not(:eq(' + index + ')) > .item'), 0, {delay:0.6, opacity:0, ease:Back.easeOut});
 			
-			/ authors
+			// authors
 			jQuery('#categorizr .author li').removeClass('visible');
 			jQuery('#categorizr .author li:eq(' + index + ')').addClass('visible');
 			

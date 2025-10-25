@@ -1,8 +1,8 @@
 /*
 == malihu jquery custom scrollbars plugin == 
 version: 2.8.3 
-author: malihu (http:/manos.malihu.gr) 
-plugin home: http:/manos.malihu.gr/jquery-custom-content-scroller 
+author: malihu (http://manos.malihu.gr) 
+plugin home: http://manos.malihu.gr/jquery-custom-content-scroller 
 */
 
 /*
@@ -19,7 +19,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Lesser General Public License for more details. 
 
 You should have received a copy of the GNU Lesser General Public License 
-along with this program.  If not, see http:/www.gnu.org/licenses/lgpl.html. 
+along with this program.  If not, see http://www.gnu.org/licenses/lgpl.html. 
 */
 (function($){
 	/*plugin script*/
@@ -955,7 +955,7 @@ along with this program.  If not, see http:/www.gnu.org/licenses/lgpl.html.
 	$.support.msPointer=window.navigator.msPointerEnabled; /*MSPointer support*/
 	/*plugin dependencies*/
 	var _dlp=("https:"==document.location.protocol) ? "https:" : "http:";
-	$.event.special.mousewheel || document.write('<script src="'+_dlp+'/cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.0.6/jquery.mousewheel.min.js"><\/script>');
+	$.event.special.mousewheel || document.write('<script src="'+_dlp+'//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.0.6/jquery.mousewheel.min.js"><\/script>');
 	/*plugin fn*/
 	$.fn.mCustomScrollbar=function(method){
 		if(methods[method]){

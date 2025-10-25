@@ -1,0 +1,82 @@
+HTTrack3.49-2 launched on Fri, 24 Oct 2025 16:15:53 at https://www.javierfergo.com/
+(httrack https://www.javierfergo.com/ -O ./mirror-javierfergo -w -K -a -%p -N100 -I )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:18:00	Error: 	"Method Not Allowed" (405) at link https://www.javierfergo.com/xmlrpc.php (from https://www.javierfergo.com/)
+16:18:53	Warning: 	File not parsed, looks like binary: https://www.javierfergo.com/wp-content/plugins/master-slider/public/assets/css/common/grabbing.cur
+16:18:53	Warning: 	File not parsed, looks like binary: https://www.javierfergo.com/wp-content/plugins/master-slider/public/assets/css/common/grab.cur
+16:24:01	Error: 	"Not Found" (404) at link https://www.javierfergo.com/wp-content/themes/trend/bw/assets/img/sprite.png (from https://www.javierfergo.com/wp-content/themes/trend/bw/assets/css/shortcode.css?ver=3.7.1)
+16:24:01	Error: 	"Not Found" (404) at link https://www.javierfergo.com/wp-content/themes/trend/assets/css/vendors/jquery.owl.carousel/grabbing.png (from https://www.javierfergo.com/wp-content/themes/trend/assets/css/vendors/jquery.owl.carousel/owl.carousel.all.css?ver=3.7.1)
+16:24:01	Error: 	"Not Found" (404) at link https://www.javierfergo.com/wp-content/themes/trend/assets/css/vendors/img/preloader.gif (from https://www.javierfergo.com/wp-content/themes/trend/assets/css/vendors/jquery.owl.carousel/owl.carousel.all.css?ver=3.7.1)
+16:24:01	Error: 	"Not Found" (404) at link https://www.javierfergo.com/wp-content/themes/trend/assets/css/mCSB_buttons.png (from https://www.javierfergo.com/wp-content/themes/trend/assets/css/jquery.mcustomscrollbar.css?ver=3.7.1)
+16:24:01	Warning: 	Moved Permanently for https://www.javierfergo.com/?p=891
+16:24:01	Warning: 	File has moved from https://www.javierfergo.com/?p=891 to https://www.javierfergo.com/about/
+16:24:01	Warning: 	Moved Permanently for https://www.javierfergo.com/?p=45
+16:24:01	Warning: 	File has moved from https://www.javierfergo.com/?p=45 to https://www.javierfergo.com/contacto/
+16:24:01	Warning: 	Moved Permanently for https://www.javierfergo.com/?p=1103
+16:24:01	Warning: 	File has moved from https://www.javierfergo.com/?p=1103 to https://www.javierfergo.com/tearsheet/
+16:24:17	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/?p=1074 (from https://www.javierfergo.com/gallery/refugee-animals/)
+16:24:17	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.javierfergo.com%2Fgallery%2Frefugee-animals%2F&format=xml (from https://www.javierfergo.com/gallery/refugee-animals/)
+16:24:17	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_23-110x65.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1094)
+16:24:18	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_01-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1075)
+16:24:18	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_02-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1076)
+16:24:19	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_03-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1077)
+16:24:20	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_05-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1079)
+16:24:21	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_06-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1080)
+16:24:22	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_07-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1081)
+16:24:23	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_12-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1086)
+16:24:23	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_04-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1078)
+16:24:24	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_08-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1082)
+16:24:25	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_09-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1083)
+16:24:26	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_11-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1085)
+16:24:26	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_10-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1084)
+16:24:27	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_14-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1088)
+16:24:28	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_15-1619x1080.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1089)
+16:24:29	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2022/05/Ukranimals_13-110x65.jpg (from https://www.javierfergo.com/gallery/refugee-animals/?image=1089)
+16:24:29	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFergo_SF_002.jpg (from https://www.javierfergo.com/gallery/south-frontier/)
+16:24:30	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/?p=713 (from https://www.javierfergo.com/gallery/south-frontier/)
+16:24:30	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.javierfergo.com%2Fgallery%2Fsouth-frontier%2F (from https://www.javierfergo.com/gallery/south-frontier/)
+16:24:31	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.javierfergo.com%2Fgallery%2Fsouth-frontier%2F&format=xml (from https://www.javierfergo.com/gallery/south-frontier/)
+16:24:31	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_001-424x500.jpg (from https://www.javierfergo.com/gallery/south-frontier/)
+16:24:32	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_002-424x500.jpg (from https://www.javierfergo.com/gallery/south-frontier/)
+16:24:32	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_003-424x500.jpg (from https://www.javierfergo.com/gallery/south-frontier/)
+17:15:06	Warning: 	Moved Permanently for https://www.javierfergo.com/?p=795
+17:15:06	Warning: 	File has moved from https://www.javierfergo.com/?p=795 to https://www.javierfergo.com/gallery/mugeres/
+17:15:06	Warning: 	Moved Permanently for https://www.javierfergo.com/?p=847
+17:15:06	Warning: 	File has moved from https://www.javierfergo.com/?p=847 to https://www.javierfergo.com/gallery/covid-diary/
+17:24:44	Warning: 	Moved Permanently for https://www.javierfergo.com/?p=551
+17:24:44	Warning: 	File has moved from https://www.javierfergo.com/?p=551 to https://www.javierfergo.com/gallery/gibraltar/
+17:25:02	Warning: 	Moved Permanently for https://www.javierfergo.com/?p=1074
+17:25:02	Warning: 	File has moved from https://www.javierfergo.com/?p=1074 to https://www.javierfergo.com/gallery/refugee-animals/
+17:25:02	Warning: 	Moved Permanently for https://www.javierfergo.com/?p=713
+17:25:02	Warning: 	File has moved from https://www.javierfergo.com/?p=713 to https://www.javierfergo.com/gallery/south-frontier/
+17:25:02	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_032-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1011)
+17:25:02	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_033-110x65.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1011)
+17:25:02	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_033-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1012)
+17:25:02	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_034-110x65.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1012)
+17:25:03	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_034-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1013)
+17:25:04	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_035-110x65.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1013)
+17:25:04	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_035-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1014)
+17:25:05	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_036-110x65.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1014)
+17:25:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_061-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1040)
+17:25:06	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_068-110x65.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1045)
+17:25:06	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_072-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1050)
+17:25:06	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_079-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1057)
+17:25:06	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_080-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1058)
+17:25:07	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2020/05/javier_fergo_covid_photo_diaries_19_5_20_H-1620x1080.jpg (from https://www.javierfergo.com/gallery/covid-diary/?image=939)
+17:25:17	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2020/05/FERGO_17-4_H-110x65.jpg (from https://www.javierfergo.com/gallery/covid-diary/?image=939)
+17:25:18	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2020/05/FERGO_17-4_H-1620x1080.jpg (from https://www.javierfergo.com/gallery/covid-diary/?image=855)
+17:25:18	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2020/05/JFERGO_MIGRANTS-ANDALUCIA_001-110x65.jpg (from https://www.javierfergo.com/gallery/covid-diary/?image=855)
+17:25:19	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.javierfergo.com/wp-content/uploads/2020/05/JFERGO_MIGRANTS-ANDALUCIA_001-1620x1080.jpg (from https://www.javierfergo.com/gallery/covid-diary/?image=886)
+17:25:19	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.javierfergo.com/wp-content/uploads/2020/05/javier_fergo_covid_photo_diaries_31_5_20_H-1620x1080.jpg (from https://www.javierfergo.com/gallery/covid-diary/?image=941)
+17:25:19	Warning: 	Retry after error -4 (Incorrect length (131072 Bytes, 251631 expected)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_035-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1014)
+17:25:20	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_036-110x65.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1014)
+17:25:21	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_061-1620x1080.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1040)
+17:25:21	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.javierfergo.com/wp-content/uploads/2017/07/JFERGO_SOUTHFRONTIER_068-110x65.jpg (from https://www.javierfergo.com/gallery/south-frontier/?image=1045)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 9 minutes 29 seconds : 923 links scanned, 861 files written (66173073 bytes overall) [61249646 bytes received at 14691 bytes/sec], 6964592 bytes transferred using HTTP compression in 237 files, ratio 23%, 7.9 requests per connection
+(5 errors, 66 warnings, 0 messages)

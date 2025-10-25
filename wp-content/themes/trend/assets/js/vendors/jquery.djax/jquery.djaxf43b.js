@@ -5,10 +5,10 @@
 *
 * Copyright 2012, Brian Zeligson
 * Released under the MIT license.
-* http:/www.opensource.org/licenses/mit-license.php
+* http://www.opensource.org/licenses/mit-license.php
 *
 * Homepage:
-*   http:/beezee.github.com/djax.html
+*   http://beezee.github.com/djax.html
 *
 * Authors:
 *   Brian Zeligson
@@ -25,19 +25,19 @@
 /*jshint bitwise:true, curly:true, eqeqeq:true, forin:true, immed:true, latedef:true, noarg:true, noempty:true, nomen:true, nonew:true, onevar:true, plusplus:true, regexp:true, smarttabs:true, strict:true, trailing:true, undef:true, white:true, browser:true, jquery:true, indent:4, maxerr:50, */
 /*global jQuery */
 
-/ ==ClosureCompiler==
-/ @compilation_level ADVANCED_OPTIMIZATIONS
-/ @output_file_name jquery.djax.js
-/ @externs_url http:/closure-compiler.googlecode.com/svn/trunk/contrib/externs/jquery-1.7.js
-/ ==/ClosureCompiler==
-/ http:/closure-compiler.appspot.com/home
+// ==ClosureCompiler==
+// @compilation_level ADVANCED_OPTIMIZATIONS
+// @output_file_name jquery.djax.js
+// @externs_url http://closure-compiler.googlecode.com/svn/trunk/contrib/externs/jquery-1.7.js
+// ==/ClosureCompiler==
+// http://closure-compiler.appspot.com/home
 
 (function ($, exports) {
 	'use strict';
 
 	$.fn.djax = function (selector, exceptions, replaceBlockWithFunc) {
 
-		/ If browser doesn't support pushState, abort now
+		// If browser doesn't support pushState, abort now
 		if (!history.pushState) {
 			return $(this);
 		}
@@ -48,7 +48,7 @@
 		    replaceBlockWith = (replaceBlockWithFunc) ? replaceBlockWithFunc : $.fn.replaceWith,
 			djaxing = false;
 
-		/ Ensure that the history is correct when going from 2nd page to 1st
+		// Ensure that the history is correct when going from 2nd page to 1st
 		window.history.replaceState(
 			{
 				'url' : window.location.href,
@@ -62,7 +62,7 @@
 			self.djaxing = false;
 		}
 
-		/ Exclude the link exceptions
+		// Exclude the link exceptions
 		self.attachClick = function (element, event) {
 
 			var link = $(element),
@@ -77,16 +77,16 @@
 				}
 			});
 
-			/ If the link is one of the exceptions, return early so that
-			/ the link can be clicked and a full page load as normal
+			// If the link is one of the exceptions, return early so that
+			// the link can be clicked and a full page load as normal
 			if (exception) {
 				return $(element);
 			}
 
-			/ From this point on, we handle the behaviour
+			// From this point on, we handle the behaviour
 			event.preventDefault();
 
-			/ If we're already doing djaxing, return now and silently fail
+			// If we're already doing djaxing, return now and silently fail
 			if (self.djaxing) {
 				setTimeout(self.clearDjaxing, 1000);
 				return $(element);
@@ -98,14 +98,14 @@
 			self.navigate(link.attr('href'), true);
 		};
 
-		/ Handle the navigation
+		// Handle the navigation
 		self.navigate = function (url, add) {
 
 			var blocks = $(blockSelector);
 
 			self.djaxing = true;
 
-			/ Get the new page
+			// Get the new page
 			$(window).trigger(
 				'djaxLoading',
 				[{
@@ -133,10 +133,10 @@
 					);
 				}
 
-				/ Set page title as new page title
+				// Set page title as new page title
 				$('title').text($(result).filter('title').text());
 
-				/ Loop through each block and find new page equivalent
+				// Loop through each block and find new page equivalent
 				blocks.each(function () {
 
 					var id = '#' + $(this).attr('id'),
@@ -151,41 +151,41 @@
 					});
 					
 					if (newBlock.length) {
-						/if (block.html() !== newBlock.html()) {
+						//if (block.html() !== newBlock.html()) {
                             newBlock.imagesLoaded(function() {
                                 replaceBlockWith.call(block, newBlock);
                             });
-						/}
+						//}
 					} else {
 						block.remove();
 					}
 
 				});
 
-				/ Loop through new page blocks and add in as needed
+				// Loop through new page blocks and add in as needed
 				$.each(newBlocks, function () {
 
 					var newBlock = $(this),
 					    id = '#' + $(this).attr('id'),
 					    $previousSibling;
 
-					/ If there is a new page block without an equivalent block
-					/ in the old page, we need to find out where to insert it
+					// If there is a new page block without an equivalent block
+					// in the old page, we need to find out where to insert it
 					if (!$(id).length) {
 
-						/ Find the previous sibling
+						// Find the previous sibling
 						$previousSibling = $(result).find(id).prev();
 
 						if ($previousSibling.length) {
-							/ Insert after the previous element
+							// Insert after the previous element
 							newBlock.insertAfter('#' + $previousSibling.attr('id'));
 						} else {
-							/ There's no previous sibling, so prepend to parent instead
+							// There's no previous sibling, so prepend to parent instead
 							newBlock.prependTo('#' + newBlock.parent().attr('id'));
 						}
 					}
 
-									/ Only add a class to internal links
+									// Only add a class to internal links
 					$('a', newBlock).filter(function () {
 						return this.hostname === location.hostname;
 					}).addClass('dJAX_internal').on('click', function (event) {
@@ -197,7 +197,7 @@
 
 
 
-				/ Trigger djaxLoad event as a pseudo ready()
+				// Trigger djaxLoad event as a pseudo ready()
 				if (!self.triggered) {
 					$(window).trigger(
 						'djaxLoad',
@@ -214,13 +214,13 @@
 			$.get(url, function (response) {
 				replaceBlocks(response);
 			}).error(function (response) {
-				/ handle error
+				// handle error
 				console.log('error', response);
 				replaceBlocks(response['responseText']);
 			});
 		}; /* End self.navigate */
 
-		/ Only add a class to internal links
+		// Only add a class to internal links
 		$(this).find('a').filter(function () {
 			return this.hostname === location.hostname;
 		}).addClass('dJAX_internal').on('click', function (event) {
@@ -228,7 +228,7 @@
 			return self.attachClick(this, event);
 		});
 
-		/ On new page load
+		// On new page load
 		$(window).bind('popstate', function (event) {
 			self.triggered = false;
 			if (event.originalEvent.state) {

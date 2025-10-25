@@ -41,7 +41,7 @@
 .bargraph li span strong.full:after {left: 15px;}
 
 .toggle {float:left;width:100%;}
-.toggle .toggle-title {float:left;width:100%;padding:3px 0 5px 22px;border-bottom:1px solid #eee;font-size:20px;background:url(https:/tizonsoft.github.io/javierfergo/img/sprite.html) no-repeat 0 -50px;cursor:pointer;}
+.toggle .toggle-title {float:left;width:100%;padding:3px 0 5px 22px;border-bottom:1px solid #eee;font-size:20px;background:url(../img/sprite.png) no-repeat 0 -50px;cursor:pointer;}
 .toggle .toggle-content {display:none;float:left;width:100%;padding:7px 10px 10px 20px;}
 .toggle.active .toggle-content {display:block;}
 .toggle.active .toggle-title {background-position:0 -85px}
